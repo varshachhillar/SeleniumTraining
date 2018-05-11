@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Seller Test Automation Test Suite">
+    <listeners>
+        <listener class-name="testngpractise.executionretry"></listener>
+    </listeners>
+        <test name="Seller Test Cases">
+            <parameter name="demo1" value="DEMO123"></parameter>
+            <parameter name="demo2" value="DEMO456"></parameter>
+        <classes>
+            <class name="testngpractise.testclassA"></class>
+            <class name="testngpractise.testclassB"></class>
+        </classes>
+    </test>
+</suite>
